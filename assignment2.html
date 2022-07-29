@@ -1,0 +1,25 @@
+<!--1. Create a div that covers half the screen and when clicked becomes full screen and changes color.-->
+<html>
+    <head>
+        <title>Assignment-2; Day-4</title>
+        <style>
+            .division{
+                width: 50%;
+                height: 100%;
+                background-color: orange;
+            }
+
+        </style>
+        <script>
+            var element=getElementById("division_box")
+            function clickDiv(element){
+                element.style.height="100%";
+                element.style.width="100%";
+                element.style.backgroundColor="#A020F0";
+                }
+        </script>
+    </head>
+    <body>
+        <div id="division_box" class="division" onclick="clickDiv(this)"></div>
+    </body>
+</html>
