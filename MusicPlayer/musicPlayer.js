@@ -1,13 +1,3 @@
-// let d=document.createElement("div");
-// d.classList.add("two");
-
-// let h=document.createElement("h1");
-// h.append("New");
-
-// d.append(h);
-
-// document.querySelector(".one").append(d);
-
 // project js 
 
 let musics=[
